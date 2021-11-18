@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet ~ Home</title>
+    <link rel="icon" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:1080px)" href="css/phone.css">
+</head>
+<body>
+    <nav>
+        <div id="navbar">
+            <div class="logo">
+                <img src="favicon.png" alt="logo">
+            </div>
+            <ul class="list">
+                <li class="item"> <a href="#homeSection">Home</a> </li>
+                <li class="item"> <a href="#serviceSection">Services</a> </li>
+                <li class="item"> <a href="#clientSection">Clients</a> </li>
+                <li class="item"> <a href="#contactSection">Contact Us</a> </li>
+            </ul>        
+        </div>
+    </nav> 
+
+    <main>
+
+        <section id="homeSection">
+            <h1 class="h-primary center">Ghar Ho To Aisa....</h1>
+            <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis eveniet molestiae eligendi itaque 
+                <br>omnis architecto ut, incidunt dolore, eum quia. Nulla architecto ad consectetur aliquam?</p>
+            <button class="btn">buy home</button>
+            
+        </section>
+
+        <section id="serviceSection">
+            <h1 class="h-secondry center">Facilities Provided</h1>
+            
+            <div class="serviceBox">
+                <div class="clean serviceItem">
+                    <h2 class="h-tertiory center">Cleaning Home</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro eum alias dolore ratione quae, expedita</p>
+                </div>
+                <div class="furniture serviceItem">
+                    <h2 class="h-tertiory center">Furniture Setting</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro eum alias dolore ratione quae, expedita</p>
+                </div>
+                <div class="servents serviceItem">
+                    <h2 class="h-tertiory center">Servents</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro eum alias dolore ratione quae, expedita</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="clientSection">
+            <h2 class="h-secondry center">Our Clients</h2>
+            <div class="clientBox">
+                
+                <a href="https://www.youtube.com" target="_blank"><img src="client_img/youtube.png" alt="youtube" class="clientImages"></a>
+                
+                <a href="https://www.twitter.com" target="_blank"><img src="client_img/twitter.png" alt="twitter" class="clientImages"></a>
+                
+                <a href="https://www.instagram.com" target="_blank"><img src="client_img/instagram.png" alt="instagram" class="clientImages"></a>
+
+                <a href="https://www.facebook.com" target="_blank"><img src="client_img/facebook.png" alt="facebook" class="clientImages"></a>
+                
+            </div>
+        </section>
+
+        <section id="contactSection">
+            <form class="form" action="">
+                <h1 class="h-secondry center">Contact Us</h1>
+                <label for="name" >
+                    <input type="text" name="name" placeholder="Enter your name">
+                </label>
+
+                <label for="mobileNo" >
+                    <input type="number" name="mobileNo" value="mobileNo" placeholder="Enter your Mobile no.">
+                </label>  
+                
+                <label for="email">
+                    <input type="email" name="email" placeholder="Enter your email">
+                </label>
+                <label for="textarea">
+                    <textarea name="message" cols="21" rows="10" placeholder="Enter your message"></textarea>
+                </label>
+
+                <div>
+                    <input class="cbtn" type="submit" value="Submit Now">
+                    <input class="cbtn" type="reset" value="Reset Now">
+                </div>            
+            </form>
+        </section>
+    </main>
+
+    <footer class="center">
+        Copyright &copy; www.sweethome.com. All rights reserved!
+    </footer>
+
+
+</html>

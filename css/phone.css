@@ -1,0 +1,92 @@
+/* Navbar    ---------------------------------------------------------------- */
+
+#navbar{
+    flex-direction: column;
+}
+
+/* Home Section    ---------------------------------------------------------------- */
+
+#homeSection{
+    padding: 3px 7px;
+    padding-top: 80px;
+}
+
+#homeSection::before{
+    height: 660px;
+}
+
+#homeSection p {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* Service Section    ---------------------------------------------------------------- */
+
+
+.serviceBox{
+    flex-direction: column;
+    padding: 0 30px;
+}
+.serviceItem:hover{
+    transform:scale(1.2);
+}
+.serviceItem{
+    padding: 10px;
+}
+.item{
+    padding: 7px 13px;
+}
+
+
+/* Clients Section     ---------------------------------------------------------------- */
+
+#clientSection{
+    padding: 20px;
+}
+
+.clientBox{
+    flex-wrap: wrap;
+}
+
+.clientBox a{
+    margin: 39px;
+}
+
+.clientImages{
+    height: 4rem;
+    width: 4rem;
+}
+
+
+/* Contact Section    ---------------------------------------------------------------- */
+
+
+.form label input,
+.form label textarea{
+    width: 22rem;
+}
+
+.form div{
+    display: flex;
+}
+
+.cbtn{
+    margin: 20px 31px;
+}
+
+/* Footer Section    ---------------------------------------------------------------- */
+
+footer{
+    font-size: .8rem;
+    padding: 5px 0;
+}
+
+
+/* Utilities Classes    ---------------------------------------------------------------- */
+
+
+.h-primary{
+    font-size: 2.1rem;
+    padding: 13px;
+    padding-bottom: 25px;
+}
